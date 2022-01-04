@@ -2,7 +2,7 @@
 
 body{
            
-    background-color: hsla(165, 81%, 93%);
+    background-color: rgb(167, 192, 216);
     color: rgba(0, 0, 0, 1);
 }
 p{
@@ -10,6 +10,10 @@ p{
     text-indent: 50px;
 }
 
+h1{
+    color: rgba(153, 112, 35, 0.774);
+   
+}
 /* Formatação de imagens com legenda */
 
 figure.foto-legenda {
