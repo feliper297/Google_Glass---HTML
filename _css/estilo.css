@@ -2,18 +2,32 @@
 
 body{
            
-    background-color: rgb(167, 192, 216);
+    background-color: #dddddd;
     color: rgba(0, 0, 0, 1);
+}
+
+div#interface{
+    width: 900px;
+    background-color: white;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px gray;
+    padding: 10px;
 }
 p{
     text-align: justify;
     text-indent: 50px;
 }
 
-h1{
-    color: rgba(153, 112, 35, 0.774);
-   
+header#cabecalho img#icone{
+    position: absolute;
+    left: 780px;
+    top: 40px;
 }
+
+header#cabecalho{
+    
+}
+    
 /* Formatação de imagens com legenda */
 
 figure.foto-legenda {
@@ -63,8 +77,26 @@ nav#menu li {
     background-color: rgb(192, 201, 214);
     padding: 10px;
     margin: 2px;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+    -o-transition: background-color 1s;
+    transition: background-color 1s;
 }
 
+nav#menu li:hover{
+    background-color: #606060;
+}
 nav#menu h1{
     display: none;
+}
+
+nav#menu a{
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: white;
+    text-decoration: underline;
 }
